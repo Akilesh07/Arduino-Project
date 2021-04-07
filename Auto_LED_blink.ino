@@ -14,7 +14,7 @@
 WiFiClient client;
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
 
-Adafruit_MQTT_Subscribe light_button = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME "/feeds/light");
+Adafruit_MQTT_Subscribe light_button = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME "/feeds/akisusan");
 
 void MQTT_connect();
 
